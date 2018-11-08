@@ -1,5 +1,15 @@
-for (var i = 2; i <= 10; i++) {
-  if (i % 2 == 0) {
-    alert( i );
-  }
+
+function pow(x, n) {
+var result = x;
+ 
+
+for(var i=1; i<n; i++) {
+result *= x;
+ 
+
+}
+ 
+ 
+
+return result;
 }
